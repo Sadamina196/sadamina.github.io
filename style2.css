@@ -1,0 +1,228 @@
+#principal{
+    background-color: white;
+    margin: auto;
+    font-family: sans-serif;
+    padding:0px ;
+   
+}
+#entete{
+    background-color: lightgreen ;
+    color: green;
+    height: 100px;
+    font-family: sans-serif;
+}
+a{
+    font-size: 15px;
+    color: green;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    float: right;
+    margin-top: 20px;  
+    margin-right: 10px;
+}
+a:hover{
+    background-color: green;
+    color: greenyellow;
+    border-radius: 15px;
+} 
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 280px;
+    font-size: 40px;
+}
+#menu{
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://static.nationalgeographic.fr/files/styles/image_3200/public/natgeo_1159723.jpg?w=1600&h=900);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: diaporama 20s infinite; 
+  
+   
+}
+@keyframes diaporama {
+    0% {
+      background-image: url(https://static.nationalgeographic.fr/files/styles/image_3200/public/natgeo_1159723.jpg?w=1600&h=900);
+    }
+     12.5%{
+      background-image: url(https://www.francaisaletranger.fr/wp-content/uploads/2018/05/seychelles.jpg);
+    }
+    25%{
+      background-image: url(https://images.ctfassets.net/bth3mlrehms2/1zmQzLpc8ixHDqSbK4BUFC/7813a0c0d4cadcb53000c5822c9a6e0a/Seychelles__Ile_de_Mahe____Plage_de_Beau_Vallon.jpg?w=1200&h=675&fl=progressive&q=50&fm=jpg);
+    }
+    37.5%{
+      background-image: url(https://cdn.britannica.com/28/190028-050-5CFFC46D/island-La-Digue-Seychelles.jpg);
+    }
+   50%{
+        background-image: url(https://ns.clubmed.com/fbs/RWD/Images/VOYAGE/Ocean_indien/Seychelles/immersive.jpg);
+      }
+       62.5%{
+        background-image: url(https://static.euronews.com/articles/stories/06/61/95/10/1440x810_cmsv2_4dd0d3f3-1a3a-5e03-8a76-1835da387ea2-6619510.jpg);
+      }
+      75% {
+        background-image: url(https://images.ctfassets.net/rc3dlxapnu6k/5tXjdxMCfPpc6igvGZkNpB/1b8cf532174882e4b53db7b106974d85/Seychelles_Aldabra_Tortoise_iStock.jpg?w=2121&h=1193&fl=progressive&q=50&fm=jpg);
+      }
+      87.5% {
+        background-image: url(https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2021/05/USE_Seychelles_GettyImages-981523266.jpg);
+      }
+      100% {
+        background-image: url(https://www.cercledesvoyages.com/wp-content/uploads/2020/12/Source-dargent-la-Digue-Seychelles-199617709.jpg);
+      }
+  }
+  .partie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+  }
+  
+  .partie img {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 10px;
+    
+  }
+  
+  .partie .text {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .partie p {
+    margin: 0;
+  }
+  .partie1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  .partie1 img {
+    flex: 1;
+    max-width: 50%;
+    margin-left: 10px;
+  }
+  
+  .partie1 .text {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .partie1 p {
+    margin: 0;
+  }
+  h2{
+    font-size: 35px;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin: auto;
+  }
+  #piedpage{
+    background-color: #12172b;
+    font-family: "poppins", sans-serif;
+    color: white;
+    padding-top: 10px;
+   
+  }
+  .profils{
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  .profil{
+    flex-basis: 260px;
+   
+  }
+  .profil img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .profil:hover .profil-img{
+  filter: grayscale(0);
+  }
+  .nom{
+    margin-top: 30px;
+    font-size: 20px
+  }
+  .profil h5{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: white;
+  }
+  .profil p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  h3{
+    font-size: 30px;
+  }
+  #piedpage a{
+    margin-top: 0px;
+    margin-left: 0px;
+   float: none;
+   color: blue;
+  }
+  #piedpage a:hover{
+    background-color: transparent;
+    border: none;
+    color: aqua;
+  }
+  h4{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+  }
+  h5{
+    font-size: 30px;
+  }
+  #menu span{
+    text-transform: uppercase;
+    display: block;
+  }
+.titre{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: sans-serif;
+  width: 100%;
+}
+.t1{
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  position: relative;
+  animation: amina 10s infinite;
+
+}
+
+@keyframes amina{
+ 0%{
+  color: black;
+  margin-bottom: -10px;
+ } 
+ 30%{letter-spacing: 30px;
+margin-bottom: 10px;}
+85%{
+  letter-spacing: 20px;
+  margin-bottom: -10px;
+}
+
+}
+.logo{
+  font-size: 30px;
+}

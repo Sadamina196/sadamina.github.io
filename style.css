@@ -1,0 +1,163 @@
+#principal{
+  background-color: beige;
+  margin: auto;
+  font-family: sans-serif ;
+  padding: 0px;
+  font-size: 30px;
+  background-size: cover;
+ 
+}
+#entete{
+  background-color: #1b2758;
+  color: white;
+  height: 100px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+a{
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+  float: right;
+  margin-top: 20px;  
+  margin-right: 10px;
+  cursor: pointer;
+}
+a:hover{
+  background-color: white;
+  color: #1b2758;
+  border-radius: 15px;
+} 
+h1{
+  text-align: center;
+  color: white;
+  margin-top: 280px;
+  font-size: 40px;
+}
+.partie {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.partie img {
+  flex: 1;
+  max-width: 50%;
+  margin-right: 10px;
+  
+}
+
+.partie .text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.partie p {
+  margin: 0;
+  font-size: 25px;
+}
+.partie1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.partie1 img {
+  flex: 1;
+  max-width: 50%;
+  margin-left: 10px;
+}
+
+.partie1 .text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.partie1 p {
+  margin: 0;
+  font-size: 25px;
+}
+h2{
+  font-size: 35px;
+  margin-left: 15%;
+  margin-top: 10px;
+  margin: auto;
+}
+#piedpage{
+  background-color: #12172b;
+  font-family: "poppins", sans-serif;
+  color: white;
+  padding-top: 10px;
+ 
+}
+.profils{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.profil{
+  flex-basis: 260px;
+ 
+}
+.profil img{
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+}
+.profil:hover .profil-img{
+filter: grayscale(0);
+}
+.nom{
+  margin-top: 30px;
+  font-size: 30px
+}
+.profil h5{
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: white;
+}
+.profil p{
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+}
+h3{
+  font-size: 30px;
+}
+#piedpage a{
+  margin-top: 0px;
+  margin-left: 0px;
+ float: none;
+}
+#piedpage a:hover{
+  background-color: transparent;
+  border: none;
+  color: aqua;
+}
+h4{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+h5{
+  font-size: 30px;
+}
+#menu span{
+  text-transform: uppercase;
+  display: block;
+}
+.logo{
+font-size: 30px;
+}
+#contenu{
+  background-color: white;
+  
+}

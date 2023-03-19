@@ -1,0 +1,238 @@
+#principal{
+    background-color: white;
+    margin: auto;
+    background-size: cover;
+    padding: 0px;
+}
+#entete{
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.mymyroadtrip.com/wp-content/uploads/2015/11/Santorin-grece-mymyroadtrip-20.jpg);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: diaporama 30s infinite;  
+    font-family: sans-serif;
+}
+@keyframes diaporama {
+    0% {
+      background-image: url(https://www.mymyroadtrip.com/wp-content/uploads/2015/11/Santorin-grece-mymyroadtrip-20.jpg);
+    }
+     12.5%{
+      background-image: url(https://cdn.bonsplansvoyage.fr/wp-content/uploads/2021/11/meilleur-hotel-endoit-ou-dormir-a-santorin-cyclades-grece.webp);
+    }
+    25%{
+      background-image: url(https://www.airseychelles.com/sites/default/files/styles/press_release_wide/public/city-images/seychellesweb3.jpg?itok=dFGPd9rh);
+    }
+    37.5%{
+      background-image: url(https://static.nationalgeographic.fr/files/styles/image_3200/public/natgeo_1159723.jpg?w=1600&h=900);
+    }
+   50%{
+        background-image: url(https://images.ctfassets.net/bth3mlrehms2/1zmQzLpc8ixHDqSbK4BUFC/7813a0c0d4cadcb53000c5822c9a6e0a/Seychelles__Ile_de_Mahe____Plage_de_Beau_Vallon.jpg?w=1200&h=675&fl=progressive&q=50&fm=jpg);
+      }
+       62.5%{
+        background-image: url(https://a.cdn-hotels.com/gdcs/production143/d1112/c4fedab1-4041-4db5-9245-97439472cf2c.jpg);
+      }
+      75% {
+        background-image: url(https://www.water-sports-bali.com/wp-content/uploads/2021/09/20-Best-Places-To-Visit-In-Bali-Feature-Image.jpg);
+      }
+      87.5% {
+        background-image: url(https://gotourismcircuit.com/wp-content/uploads/2022/07/Pourquoi-Jaime-Le-Senegal.jpeg);
+      }
+      100% {
+        background-image: url(https://geo.img.pmdstatic.net/fit/https.3A.2F.2Fprd-dst-website-statics.2Es3.2Eeu-west-1.2Eamazonaws.2Ecom.2Fcontent.2Fuploads.2F2021.2F01.2FSaintLouis.2Ejpg/1200x630/quality/80/saint-louis.jpg);
+      }
+  }
+#contenu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+h1{
+    color: white;
+    text-align: center;
+
+}
+
+button{
+    border: 0;
+    background: transparent;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.2em;
+    box-shadow: 0px -0px 0px 0px rgba(143,64 ,248 ,.5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+    transition: all .2s;
+    font-family: sans-serif;
+
+}
+button::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(225deg, #27D86C 0%, #26CAF8 50%, #C625D0 100%);
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    z-index: -1;
+    transition: all 0.5s ;
+
+
+}
+button:hover::after{
+transform: rotate(200deg);
+}
+button:hover{
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, .25), -10px 10px 25px 0 rgba(39, 200, 255, .25);
+}
+li{
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-left: 0px;
+    border-color: black;
+    box-shadow: black;
+    font-family: sans-serif;
+    margin: auto;
+    
+}
+#menu{
+  background-color: white;
+  color: black;
+  
+}
+li img{
+    height: 150px;
+    margin: auto;
+    border-radius: 15px;
+    border: solid 2px;
+    border-color: black;
+}section {
+    margin-bottom: 3rem;
+    border: solid 1px;
+    border-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    font-family: sans-serif;
+    
+  }
+  
+  section h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+    text-align: center;
+    margin-left: 150px;
+   
+  }
+  
+  section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+    
+
+  }
+
+li:hover{
+    transform: scale(1.3);
+    background-color: darkgray;
+    color: black;
+    border: solid black;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#footer{
+  background-color: #12172b;
+  font-family: "poppins", sans-serif;
+  color: white;
+  padding-top: 10px;
+}
+.TETE{
+  font-size: 60px;
+  color: white;
+}
+.profils{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.profil{
+  flex-basis: 260px;
+}
+.profil img{
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+}
+.profil:hover .profil-img{
+filter: grayscale(0);
+}
+.nom{
+  margin-top: 30px;
+  font-size: 20px
+}
+.profil h5{
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: white;
+}
+.profil p{
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+}
+li button{
+  border: 0;
+    background: linear-gradient(225deg, #00d9ff 0%, #20ffec 50%, #00f382 100%);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.2em;
+    box-shadow: 0px -0px 0px 0px rgba(0, 236, 253, 0.993), 0px 0px 0px 0px rgba(4, 245, 145, 0.5);
+    transition: all .2s;
+
+}
+a{
+  cursor: pointer;
+}
+h4{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+h5{
+  font-size: 30px;
+}
+#footer a:hover{
+  color: aqua;
+}
